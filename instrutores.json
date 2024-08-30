@@ -1,0 +1,13 @@
+[{
+    "nome":"Douglas Camata de Araujo", 
+    "foto": "img/douglas.jpg", 
+    "trabalhos":[
+        {"projeto":"Exercícios", "link":"#"}
+    ]
+},{
+    "nome":"Ricardo dos Anjos Dias", 
+    "foto": "img/ricardo.jpeg", 
+    "trabalhos":[
+        {"projeto":"Exercícios", "link":"#"}
+    ]
+}]
