@@ -56,10 +56,26 @@ function carregarAlunos() {
                         `
                 }
 
-                cardAluno += `
+                if (data[i].trabalhos2sem != undefined) {
+                    cardAluno += `
+                        </div>      
+
+                        <p>Projetos 2º Sem.</p>
+                        <div class="botoes">
+                            <div class="blur"></div>                            
+                            `
+
+                    for (let x = 0; x < data[i].trabalhos2sem.length; x++) {
+                        cardAluno += `
+                        <a href="${data[i].trabalhos2sem[x].link}" target="_blank" class="botao">${data[i].trabalhos2sem[x].projeto}</a>
+                        `
+                    }
+
+                    cardAluno += `
                         </div>                 
                     </div>
                     `
+                }
                 var lista = document.getElementById("instrutores")
                 lista.innerHTML += cardAluno
             }

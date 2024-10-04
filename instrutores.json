@@ -2,7 +2,10 @@
     "nome":"Douglas Camata de Araujo", 
     "foto": "img/douglas.jpg", 
     "trabalhos":[
-        {"projeto":"Exercícios", "link":"#"}
+        {"projeto":"Exercícios IoT ESP32", "link":"#"}
+    ],
+    "trabalhos2sem":[
+        {"projeto":"FinanSESI", "link":"https://finansesi.vercel.app/"}
     ]
 },{
     "nome":"Ricardo dos Anjos Dias", 
