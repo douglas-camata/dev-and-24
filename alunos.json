@@ -31,7 +31,7 @@
     "foto": "img/sem-foto.gif",
     "trabalhos":[
         
-        {"projeto":"Exercícios"}
+        {"projeto":"Linguagem de Marcação", "link": "https://felipindev.github.io/aulas_lima/?authuser=1"}
     ]
 },{
     "nome":"Gabriel Guissoni", 
